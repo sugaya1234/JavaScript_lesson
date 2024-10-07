@@ -45,17 +45,24 @@ console.log(playerList[1].favorites[1]);
 // Q5
 console.log((playerList[0].age + playerList[1].age + playerList[2].age) / 3);
 
+let totalage = 0;
+for (let i = 0; i < playerList.length; i++) {
+  totalage += playerList[i].age;
+}
+
+console.log(totalage / playerList.length);
+
 // Q6
 function sayHello() {
   console.log('Hello')
 }
 sayHello()
 
-const seyworld = function(world) {
+const sayworld = function() {
    console.log('world')
 };
 
-seyworld ()
+sayworld ()
 
 // Q7
 user.birthday = '2000-09-27',
@@ -139,6 +146,7 @@ if (num > 0) {
 } else if (num === 0) {
   console.log('num is 0');
 }
+
 
 // Q4
 let number= []; 
