@@ -151,8 +151,9 @@ if (num > 0) {
 // Q4
 let number= []; 
 
-for (let number = 0; number <= 99; number++){
-console.log(number)
+for (let i = 0; i <= 99; i++){
+  number[i] = i
+  console.log(number[i])
 }
 
 // Q5
